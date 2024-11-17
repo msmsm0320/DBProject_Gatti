@@ -1,0 +1,84 @@
+.login-section {
+  background-size: cover;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px; /* Use min-height instead of height */
+  flex-direction: column; /* Assuming this is the correct property */
+}
+.content-section {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px; /* Use min-height instead of height */
+  flex-direction: column; /* Assuming this is the correct property */
+}
+.login-form {
+  width: 500px;
+  border: 2px solid #ccc;
+  padding: 30px;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+label {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.login-button {
+  float: right;
+  background: rgb(255, 255, 255);
+  padding: 5px 10px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+.login-button:hover {
+  opacity: 0.7;
+}
+.error {
+  background: #eb2355;
+  color: #ffffff;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+
+.success {
+  background: #d4edda;
+  color: #40754c;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+
+.save {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+.save:hover {
+  text-decoration: underline;
+}
+
+.logout {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+.logout:hover {
+  text-decoration: underline;
+}

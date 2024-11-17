@@ -1,0 +1,106 @@
+body {
+	background-image: url("../img/hongik.jpg");
+	background-size: cover;
+	opacity: 0.7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: rgb(0, 0, 0);
+	border-radius: 10px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: rgb(255, 255, 255)
+}
+
+input {
+	display: block;
+	border: 1px solid rgb(158, 158, 158);
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: rgb(255, 255, 255);
+	padding: 10px 15px;
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #eb2355;
+   color: #ffffff;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+   font-size: 12px;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+   font-size: 12px;
+}
+
+h1 {
+	font-size: 25px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
+.save {
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	
+}
+.save:hover {
+	text-decoration: underline;
+} 
+
+.logout {
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	
+}
+.logout:hover {
+	text-decoration: underline;
+}
